@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+const char* boolToString(int b) {
+    return b ? "true" : "false";
+}
+
+int main() {
+    int b;
+    scanf("%d", &b); 
+    printf("%s", boolToString(b));
+    return 0;
+}
