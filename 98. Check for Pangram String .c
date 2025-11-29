@@ -18,4 +18,5 @@ int main() {
         }
 
     printf("Pangram");
+    return 0;
 }
